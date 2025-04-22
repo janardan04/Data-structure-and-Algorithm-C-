@@ -2,6 +2,8 @@
 
 void array(int a[],int n){
 	int i;
+	printf("%d",sizeof(a)/sizeof(int));
+
 	for(i=0;i<n;i++){
 		printf("\n%d",a[i]);
 	}
@@ -16,7 +18,9 @@ int main()
 		printf("\nEnter the %d array :",j+1);
 		scanf("%d",&a[j]);
 	}
+
 	printf("\n Does you want to print array's you entered\n");
+
 	
 	scanf("%d",&r);
 	if(r==1 ){
@@ -24,6 +28,7 @@ int main()
 	}
 	else{
 		printf("Okay exiting from code");
+
 	}
 	
 }
