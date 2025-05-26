@@ -29,4 +29,6 @@ int main()
     printf("%d \n %d",r.length , r.breadth);
 
     printf("the area of rectangle is %d", area(r));
+
+    printf(5 / 2);
 }
